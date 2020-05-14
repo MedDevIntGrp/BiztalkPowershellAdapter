@@ -25,7 +25,7 @@ Windows Registry Editor Version 5.00
 "OutboundTypeName"="Phuuskon.BizTalk.Adapters.PowershellTransmitter.PowershellTransmitAdapter"
 
 'Path to the assembly that implements sending part of the adapter
-"OutboundAssemblyPath"="C:\\Users\\phuuskon\\Source\\Repos\\BiztalkPowershellAdapter\\BiztalkPowershellAdapter\\bin\\Debug\\Phuuskon.BizTalk.Adapters.PowershellTransmitter.dll"
+"OutboundAssemblyPath"="C:\\Users\hse\\Source\\Repos\\BiztalkPowershellAdapter\\BiztalkPowershellAdapter\\bin\\Debug\\BizTalk.Adapters.PowershellTransmitter.dll"
 
 'URL prefixes used for dynamic port transport resolution
 "AliasesXML"="<AdapterAliasList><AdapterAlias>Powershell://</AdapterAlias></AdapterAliasList>"
@@ -44,7 +44,7 @@ Windows Registry Editor Version 5.00
 "AdapterMgmtTypeName"="Phuuskon.BizTalk.Adapters.PowershellManagement.PowershellAdapterManagement"
 
 'Path to the assembly that implments UI for adapter property pages
-"AdapterMgmtAssemblyPath"="C:\\Users\\phuuskon\\Source\\Repos\\BiztalkPowershellAdapter\\AdapterManagement\\bin\\Debug\\Phuuskon.BizTalk.Adapters.PowershellManagement.dll"
+"AdapterMgmtAssemblyPath"="C:\\Users\\hse\\Source\\Repos\\BiztalkPowershellAdapter\\AdapterManagement\\bin\\Debug\\BizTalk.Adapters.PowershellManagement.dll"
 
 
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{3BC88048-583A-4DC9-8829-A9A33B3242A5}\Implemented Categories]
