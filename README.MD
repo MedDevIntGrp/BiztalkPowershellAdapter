@@ -4,18 +4,8 @@ This is a custom BizTalk in-process send adapter for running powershell scripts/
 
 ## Introduction
 
-This code implements an async sendport adapter to Microsoft BizTalk Server 2016 for runnning powershell scripts/commands locally or at remote server.
+This code implements an async sendport adapter to Microsoft BizTalk Server 2020 for runnning powershell scripts/commands locally or at remote server.
 
-## Requirements
-
-Things needed for building:
-- Microsoft BizTalk Server 2016 Developer full installation with SDK.
-- Visual Studio 2015 or later.
-
-## Usage
-
-Normal procedures for creating send ports in BizTalk.
-Pick 'Powershell' for the type of send port adapter.
 
 ### Send port settings
 
@@ -47,20 +37,10 @@ $param = $xmlmessage.PowershellAdapter.Parameter1
 cmd.exe /c 'C:\Test\run.bat' $param 
 ```
 
-## Installation
-
-Required steps for installing the adapter
-- Build solution
-  - notice the location of Microsoft.Samples.BizTalk.Adapter.Common -project
-- Run PowershellAdapterSetup.msi from Installer-projects' output
-- Register adapter to BizTalk with BizTalk Administration Console
-  - Platform Settings -> Adapters -> New -> Adapter
-    - Name: Powershell
-    - Adapter: PowershellAdapter
 
 ## TODO
 
 - Needs extensive testing
 - Better install and usage instructions
 - Include install binary to repo
-- Must try it on BizTalk 2013 R2 and BizTalk 2020
+
