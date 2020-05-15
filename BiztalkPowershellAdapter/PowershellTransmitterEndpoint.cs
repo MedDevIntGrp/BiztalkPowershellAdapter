@@ -4,7 +4,7 @@ using Microsoft.Samples.BizTalk.Adapter.Common;
 using System.Management.Automation.Runspaces;
 
 
-namespace Phuuskon.BizTalk.Adapters.PowershellTransmitter
+namespace BizTalk.Adapters.PowershellTransmitter
 {
     internal class PowershellTransmitterEndpoint : AsyncTransmitterEndpoint
     {
