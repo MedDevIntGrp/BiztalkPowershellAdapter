@@ -2,7 +2,7 @@
 using System.IO;
 using System.Xml;
 
-namespace Phuuskon.BizTalk.Adapters.PowershellTransmitter
+namespace BizTalk.Adapters.PowershellTransmitter
 {
     public static class IBaseMessageExtensions
     {
