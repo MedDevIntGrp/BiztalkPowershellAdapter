@@ -14,10 +14,10 @@ namespace Phuuskon.BizTalk.Adapters.PowershellManagement
             switch (configType)
             {
                 case ConfigType.TransmitHandler:
-                    return GetResource("Phuuskon.BizTalk.Adapters.PowershellManagement.TransmitHandler.xsd");
+                    return GetResource("BizTalk.Adapters.PowershellManagement.TransmitHandler.xsd");
 
                 case ConfigType.TransmitLocation:
-                    return GetResource("Phuuskon.BizTalk.Adapters.PowershellManagement.TransmitLocation.xsd");
+                    return GetResource("BizTalk.Adapters.PowershellManagement.TransmitLocation.xsd");
 
                 default:
                     return null;
@@ -33,13 +33,13 @@ namespace Phuuskon.BizTalk.Adapters.PowershellManagement
         public string[] GetServiceDescription(string[] wsdlReferences)
         {
             string[] result = new string[1];
-            result[0] = GetResource("Phuuskon.BizTalk.Adapters.PowershellManagement.service1.wsdl");
+            result[0] = GetResource("BizTalk.Adapters.PowershellManagement.service1.wsdl");
             return result;
         }
 
         public string GetServiceOrganization(Microsoft.BizTalk.Component.Interop.IPropertyBag endpointConfiguration, string nodeIdentifier)
         {
-            string result = GetResource("Phuuskon.BizTalk.Adapters.PowershellManagement.CategorySchema.xml");
+            string result = GetResource("BizTalk.Adapters.PowershellManagement.CategorySchema.xml");
             return result;
         }
 
