@@ -7,8 +7,8 @@
     <ProjectGuid>{DBDDA9AC-504C-4485-948D-8DA8C0CDB1EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Phuuskon.BizTalk.Adapters.PowershellTransmitter</RootNamespace>
-    <AssemblyName>Phuuskon.BizTalk.Adapters.PowershellTransmitter</AssemblyName>
+    <RootNamespace>BizTalk.Adapters.PowershellTransmitter</RootNamespace>
+    <AssemblyName>BizTalk.Adapters.PowershellTransmitter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
