@@ -22,7 +22,7 @@ Windows Registry Editor Version 5.00
 "OutboundEngineCLSID"="{49F50364-0B81-4ED9-8C67-AD7BA5328DFE}"
 
 'Type name of the class that implements send part of the adapter
-"OutboundTypeName"="Phuuskon.BizTalk.Adapters.PowershellTransmitter.PowershellTransmitAdapter"
+"OutboundTypeName"="BizTalk.Adapters.PowershellTransmitter.PowershellTransmitAdapter"
 
 'Path to the assembly that implements sending part of the adapter
 "OutboundAssemblyPath"="C:\\Users\hse\\Source\\Repos\\BiztalkPowershellAdapter\\BiztalkPowershellAdapter\\bin\\Debug\\BizTalk.Adapters.PowershellTransmitter.dll"
