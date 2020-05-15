@@ -1,7 +1,7 @@
 ﻿using Microsoft.Samples.BizTalk.Adapter.Common;
 using System;
 
-namespace Phuuskon.BizTalk.Adapters.PowershellTransmitter
+namespace BizTalk.Adapters.PowershellTransmitter
 {
     public class PowershellTransmitAdapter : AsyncTransmitter
     {
