@@ -3,7 +3,7 @@ using Microsoft.Samples.BizTalk.Adapter.Common;
 using System;
 using System.Xml;
 
-namespace Phuuskon.BizTalk.Adapters.PowershellTransmitter
+namespace BizTalk.Adapters.PowershellTransmitter
 {
     class PowershellTransmitterProperties : ConfigProperties
     {
